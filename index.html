@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmadiya Masjid, Gaya - Official Community Page</title>
+    <style>
+        :root {
+            --primary-color: #0b5345;
+            --secondary-color: #117a65;
+            --accent-color: #f39c12;
+            --bg-color: #f9f9fb;
+            --text-color: #333;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(rgba(11, 83, 69, 0.9), rgba(17, 122, 101, 0.9)), url('https://images.unsplash.com/photo-1564769625405-24e0f50fcc3f?auto=format&fit=crop&w=1200&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+            letter-spacing: 1px;
+        }
+        header p {
+            margin: 10px 0 0;
+            font-size: 16px;
+            opacity: 0.9;
+        }
+        .container {
+            max-width: 800px;
+            margin: -30px auto 30px auto;
+            padding: 0 15px;
+        }
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            margin-bottom: 20px;
+        }
+        .card h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid #e0f2f1;
+            padding-bottom: 8px;
+            margin-top: 0;
+            font-size: 20px;
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            text-align: left;
+            margin-top: 15px;
+        }
+        @media (max-width: 600px) {
+            .info-grid { grid-template-columns: 1fr; }
+        }
+        .info-item {
+            background: #f4f6f6;
+            padding: 12px 15px;
+            border-radius: 6px;
+        }
+        .info-item strong {
+            color: var(--primary-color);
+            display: block;
+            margin-bottom: 4px;
+        }
+        .donate-card {
+            background: linear-gradient(135deg, #e8f8f5, #d1f2eb);
+            border: 2px dashed var(--secondary-color);
+            text-align: center;
+        }
+        .donate-card h2 {
+            color: #0e6655;
+            border-bottom: none;
+        }
+        .qr-placeholder {
+            background: white;
+            width: 150px;
+            height: 150px;
+            margin: 15px auto;
+            border: 1px solid #ccc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            color: #666;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        .btn {
+            display: inline-block;
+            background-color: #27ae60;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            margin-top: 15px;
+            box-shadow: 0 4px 10px rgba(39, 174, 96, 0.3);
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background-color: #219653;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 13px;
+            color: #7f8c8d;
+            background: #2c3e50;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Ahmadiya Masjid</h1>
+        <p>Ramna, Kirani Ghat, Gaya, Bihar 823001</p>
+    </header>
+
+    <div class="container">
+        
+        <!-- Overview Section -->
+        <div class="card">
+            <h2>Location & Overview</h2>
+            <p>Yeh Ahmadiya Masjid ki official digital page hai, jahan local community aur visitors ke liye saari jankari uplabdh hai.</p>
+            
+            <div class="info-grid">
+                <div class="info-item">
+                    <strong>Exact Address</strong>
+                    Rina Mandal Rd, Ramna, Kirani Ghat, Gaya, Bihar 823001[span_9](start_span)[span_9](end_span)
+                </div>
+                <div class="info-item">
+                    <strong>Timings</strong>
+                    Open 24 Hours (Everyday)[span_10](start_span)[span_10](end_span)
+                </div>
+            </div>
+        </div>
+
+        <!-- Support & Donation Section -->
+        <div class="card donate-card">
+            <h2>Support & Maintenance (Donation)</h2>
+            <p>Masjid ke rakh-rakhaav, safai aur zarooriaryo ke liye aap apna yogdaan de sakte hain.</p>
+            
+            <!-- Agar aapke paas QR code ki image hai toh yahan link daal sakte hain, filhal UPI ID hai -->
+            <div class="qr-placeholder">
+                [ Yahan Apna UPI<br>QR Code Lagayein ]
+            </div>
+            
+            <p><strong>UPI ID:</strong> <code>yourupi@okaxis</code></p>
+            <a href="upi://pay?pa=yourupi@okaxis&pn=AhmadiyaMasjid&cu=INR" class="btn">Donate via UPI App</a>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Ahmadiya Masjid, Gaya[span_11](start_span)[span_11](end_span). All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
