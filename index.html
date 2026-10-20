@@ -1,175 +1,31 @@
-<!DOCTYPE html>
-<html lang="hi">
+<!doctype html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ahmadiya Masjid, Gaya</title>
-    <style>
-        :root {
-            --primary-color: #0b5345;
-            --secondary-color: #117a65;
-            --bg-color: #f9f9fb;
-            --text-color: #333;
-        }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            line-height: 1.6;
-        }
-        header {
-            background: linear-gradient(rgba(11, 83, 69, 0.9), rgba(17, 122, 101, 0.9));
-            color: white;
-            padding: 40px 20px;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 28px;
-        }
-        header p {
-            margin: 8px 0 0;
-            font-size: 15px;
-            opacity: 0.9;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 0 15px;
-        }
-        .card {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-            margin-bottom: 20px;
-        }
-        .card h2 {
-            color: var(--primary-color);
-            border-bottom: 2px solid #e0f2f1;
-            padding-bottom: 8px;
-            margin-top: 0;
-            font-size: 20px;
-        }
-        .info-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 15px;
-            text-align: left;
-            margin-top: 15px;
-        }
-        @media (max-width: 600px) {
-            .info-grid { grid-template-columns: 1fr; }
-        }
-        .info-item {
-            background: #f4f6f6;
-            padding: 12px 15px;
-            border-radius: 6px;
-        }
-        .info-item strong {
-            color: var(--primary-color);
-            display: block;
-            margin-bottom: 4px;
-        }
-        /* Gallery Styles */
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 15px;
-            margin-top: 15px;
-        }
-        .gallery img {
-            width: 100%;
-            height: 160px;
-            object-fit: cover;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            transition: transform 0.3s;
-        }
-        .gallery img:hover {
-            transform: scale(1.02);
-        }
-        .donate-card {
-            background: linear-gradient(135deg, #e8f8f5, #d1f2eb);
-            border: 2px dashed var(--secondary-color);
-            text-align: center;
-        }
-        .btn {
-            display: inline-block;
-            background-color: #27ae60;
-            color: white;
-            padding: 12px 25px;
-            text-decoration: none;
-            border-radius: 25px;
-            font-weight: bold;
-            margin-top: 15px;
-            box-shadow: 0 4px 10px rgba(39, 174, 96, 0.3);
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            font-size: 13px;
-            background: #2c3e50;
-            color: white;
-            margin-top: 40px;
-        }
-    </style>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#075b45"><meta name="keywords" content="Ahmadiya Masjid, Gaya, Bihar, mosque, prayer, community, donation"><meta name="description" content="Ahmadiya Masjid, Rina Mandal Road, Ramna, Gaya, Bihar — prayer, community, and support.">
+<title>Ahmadiya Masjid | Faith • Community • Service | ایمان • عبادت • خدمت</title>
+<style>
+:root{--green:#075b45;--deep:#063d31;--mint:#eaf5ef;--gold:#c9a65b;--ink:#18342c;--muted:#63766e;--paper:#fbfcf8}*{box-sizing:border-box}html{scroll-behavior:smooth} [lang="ur"]{font-family:Tahoma,"Noto Nastaliq Urdu",serif;line-height:2}[lang="hi"]{font-family:"Noto Sans Devanagari",Mangal,"Segoe UI",sans-serif;line-height:1.85} body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:var(--paper);line-height:1.6}a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}.topline{background:var(--deep);color:#eaf5ef;font-size:.83rem;padding:8px 0}.topline .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}.nav{background:#fff;border-bottom:1px solid #e7eee8;position:sticky;top:0;z-index:10}.navin{display:flex;align-items:center;justify-content:space-between;min-height:76px;gap:18px}.brand{display:flex;align-items:center;gap:12px;font-weight:800;color:var(--green);font-size:1.08rem}.mark{width:43px;height:43px;border-radius:50%;background:var(--mint);display:grid;place-items:center;color:var(--green);border:1px solid #d2e7d9;font-size:1.35rem}.links{display:flex;align-items:center;gap:23px;font-size:.92rem;font-weight:600}.links a:hover{color:var(--green)}.btn{display:inline-flex;align-items:center;justify-content:center;background:var(--green);color:#fff;padding:12px 20px;border-radius:9px;font-weight:750;border:1px solid var(--green);transition:.2s}.btn:hover{background:var(--deep);transform:translateY(-1px)}.btn.outline{background:transparent;color:var(--green)}.hero{padding:54px 0 62px;background:radial-gradient(ellipse at 90% 10%,#d8eadc 0,transparent 35%),linear-gradient(120deg,#f8fbf6,#eaf5ef)}.herogrid{display:grid;grid-template-columns:1fr 1.05fr;align-items:center;gap:45px}.eyebrow{color:var(--green);font-weight:800;text-transform:uppercase;letter-spacing:.14em;font-size:.76rem}.hero h1{font-size:clamp(2.45rem,5vw,4.35rem);line-height:1.08;letter-spacing:-.045em;margin:14px 0 18px;color:#123f32}.hero p{font-size:1.08rem;color:#52675e;max-width:530px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}.heroimg{position:relative}.heroimg img{width:100%;height:430px;object-fit:cover;border-radius:22px;box-shadow:0 24px 55px #0b49331c}.photo-tag{position:absolute;bottom:18px;left:18px;background:#fffef5ed;border:1px solid #e6d8b4;border-radius:12px;padding:12px 16px;box-shadow:0 8px 24px #00000010}.photo-tag strong{display:block;color:var(--green)}.photo-tag span{font-size:.83rem;color:var(--muted)}section{padding:76px 0}.sectionhead{text-align:center;max-width:680px;margin:0 auto 35px}.sectionhead h2{font-size:clamp(1.8rem,3vw,2.6rem);line-height:1.2;margin:10px 0;color:#123f32;letter-spacing:-.03em}.sectionhead p{color:var(--muted);margin:0}.prayers{background:#fff}.prayergrid{display:grid;grid-template-columns:repeat(5,1fr);gap:13px}.prayer{border:1px solid #e0ebe3;background:#fbfdf9;border-radius:14px;text-align:center;padding:22px 12px}.prayer .symbol{font-size:1.35rem;color:var(--gold)}.prayer h3{margin:6px 0 2px;color:var(--green)}.prayer p{margin:0;color:var(--muted);font-size:.88rem}.note{text-align:center;color:var(--muted);font-size:.82rem;margin-top:16px}.aboutgrid{display:grid;grid-template-columns:1fr 1fr;gap:42px;align-items:center}.aboutgrid img{width:100%;height:360px;object-fit:cover;border-radius:18px}.aboutcopy h2{font-size:2.25rem;line-height:1.2;margin:10px 0 18px;color:#123f32}.aboutcopy p{color:var(--muted)}.points{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:22px}.point{padding:13px;border-radius:10px;background:#edf6ef;font-weight:650;color:var(--green);font-size:.92rem}.gallery{background:#fff}.gallerygrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.gallerygrid img{width:100%;height:250px;object-fit:cover;border-radius:14px;transition:transform .25s}.gallerygrid img:hover{transform:scale(1.015)}.support{background:linear-gradient(135deg,#063d31,#087253);color:white}.support .sectionhead h2,.support .sectionhead p{color:white}.supportcards{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.supportcard{padding:25px;background:#ffffff0d;border:1px solid #ffffff30;border-radius:15px}.supportcard .symbol{font-size:1.55rem;color:#e3c77f}.supportcard h3{margin:10px 0 5px}.supportcard p{color:#d5e7dd;font-size:.94rem;margin:0}.donatebox{margin:28px auto 0;max-width:760px;background:#fff;color:var(--ink);border-radius:16px;padding:25px;text-align:center}.donatebox h3{margin:0 0 6px;color:var(--green)}.donatebox p{color:var(--muted);margin:0 0 17px}.contactgrid{display:grid;grid-template-columns:1fr 1fr;gap:30px}.contactpanel{padding:28px;background:white;border:1px solid #e2ebe3;border-radius:16px}.contactpanel h3{margin-top:0;color:var(--green)}.contactitem{margin:15px 0;color:var(--muted)}.contactitem strong{display:block;color:var(--ink)}.mapplaceholder{min-height:250px;border-radius:14px;background:linear-gradient(145deg,#e5f1e7,#f7f5e8);display:grid;place-items:center;text-align:center;padding:25px;color:var(--green);border:1px dashed #b6cfbb}.footer{background:#052f26;color:#d8e7df;padding:30px 0}.footerin{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;font-size:.88rem}.footer small{color:#aac7b9}.mobilemenu{display:none}
+@media(max-width:800px){.links{gap:12px;font-size:.82rem}.herogrid,.aboutgrid,.contactgrid{grid-template-columns:1fr}.hero{padding-top:35px}.heroimg img{height:330px}.prayergrid{grid-template-columns:repeat(3,1fr)}.supportcards{grid-template-columns:1fr}.gallerygrid{grid-template-columns:repeat(2,1fr)}.aboutgrid img{height:300px}}
+@media(max-width:540px){.navin{min-height:67px}.links a:not(.btn){display:none}.links .btn{padding:10px 13px}.brand{font-size:.95rem}.mark{width:38px;height:38px}.hero h1{font-size:2.65rem}.heroimg img{height:280px}.prayergrid{grid-template-columns:repeat(2,1fr)}.gallerygrid{grid-template-columns:1fr 1fr;gap:9px}.gallerygrid img{height:160px}.points{grid-template-columns:1fr}.sectionhead{text-align:left}.sectionhead.center{text-align:center}section{padding:58px 0}}
+</style>
 </head>
 <body>
-
-    <header>
-        <h1>Ahmadiya Masjid</h1>
-        <p>Ramna, Kirani Ghat, Gaya, Bihar 823001</p>
-    </header>
-
-    <div class="container">
-        
-        <!-- Overview Section -->
-        <div class="card">
-            <h2>Location & Overview</h2>
-            <p>Yeh Ahmadiya Masjid ki official digital page hai, jahan local community aur visitors ke liye saari jankari uplabdh hai.</p>
-            
-            <div class="info-grid">
-                <div class="info-item">
-                    <strong>Exact Address</strong>
-                    Rina Mandal Rd, Ramna, Kirani Ghat, Gaya, Bihar 823001[span_2](start_span)[span_2](end_span)
-                </div>
-                <div class="info-item">
-                    <strong>Timings</strong>
-                    Open 24 Hours (Everyday)[span_3](start_span)[span_3](end_span)
-                </div>
-            </div>
-        </div>
-
-        <!-- Photo Gallery Section -->
-        <div class="card">
-            <h2>Photo Gallery</h2>
-            <p>Masjid ke andar aur bahar ki kuch tasveeren:</p>
-            <div class="gallery">
-                <img src="masjid-exterior-1.jpg" alt="Masjid Exterior">
-                <img src="masjid-exterior-2.jpg" alt="Masjid Exterior">
-                <img src="masjid-exterior-3.jpg" alt="Masjid Exterior">
-                <img src="masjid-interior-1.jpg" alt="Masjid Interior">
-                <img src="masjid-interior-2.jpg" alt="Masjid Interior">
-                <img src="masjid-interior-3.jpg" alt="Masjid Interior">
-            </div>
-        </div>
-
-        <!-- Support & Donation Section -->
-        <div class="card donate-card">
-            <h2>Support & Maintenance (Donation)</h2>
-            <p>Masjid ke rakh-rakhaav aur safai ke liye aap apna yogdaan de sakte hain.</p>
-            <p><strong>UPI ID:</strong> <code>yourupi@okaxis</code></p>
-            <a href="upi://pay?pa=yourupi@okaxis&pn=AhmadiyaMasjid&cu=INR" class="btn">Donate via UPI App</a>
-        </div>
-
-    </div>
-
-    <footer>
-        <p>&copy; 2026 Ahmadiya Masjid, Gaya[span_4](start_span)[span_4](end_span). All Rights Reserved.</p>
-    </footer>
-
-</body>
-</html>
+<div class="topline"><div class="wrap"><span>☪ A place for prayer, peace & community</span><span lang="hi">इबादत, सुकून और समुदाय की जगह</span><span lang="ur" dir="rtl">عبادت، سکون اور اجتماعیت کی جگہ</span></div></div>
+<header class="nav"><div class="wrap navin"><a class="brand" href="#home"><span class="mark">☪</span><span>Ahmadiya Masjid<small style="display:block;font-size:.7rem;font-weight:500;color:#71867b">Faith • Community • Service | ایمان • عبادت • خدمت</small></span></a><nav class="links"><a href="#about">About / परिचय / تعارف</a><a href="#prayer">Prayer / नमाज़ / نماز</a><a href="#gallery">Gallery / तस्वीरें</a><a href="#contact">Contact / संपर्क</a><a class="btn" href="#donate">Support Us</a></nav></div></header>
+<main>
+<section class="hero" id="home"><div class="wrap herogrid"><div><div class="eyebrow">Ahmadiya Masjid · Gaya, Bihar</div><h1 id="heroTitle">Faith that brings us <span style="color:var(--green)">together.</span></h1><p id="heroDescription">Welcome to Ahmadiya Masjid — a place to worship, find peace, strengthen our faith, and support one another through service and kindness.</p><p lang="hi">अहमदिया मस्जिद में आपका स्वागत है। यह इबादत, सुकून, दीन की सीख और एक-दूसरे की मदद करने की जगह है।</p><p lang="ur" dir="rtl" style="font-size:1.15rem;color:#31594b">احمدیہ مسجد میں خوش آمدید۔ یہ عبادت، سکون، دینی تعلیم اور باہمی تعاون کی جگہ ہے۔</p><div class="actions"><a class="btn" href="#prayer">Prayer Information&nbsp; ↗</a><a class="btn outline" href="#about">Discover Our Masjid</a></div></div><div class="heroimg"><img src="assets/masjid-exterior-2.jpg" alt="Exterior domes of the masjid"><div class="photo-tag"><strong>Prayer • Learning • Community</strong><span>A welcoming place for all</span></div></div></div></section>
+<section class="prayers" id="prayer"><div class="wrap"><div class="sectionhead center"><div class="eyebrow">Daily worship</div><h2>Daily Prayer Times</h2><p>Check with the masjid committee for the latest jamaat schedule.</p><p lang="hi">जमात के सही समय के लिए मस्जिद की कमेटी से पुष्टि करें।</p><p lang="ur" dir="rtl">نمازِ باجماعت کے اوقات کے لیے مسجد کی انتظامیہ سے تصدیق کریں۔</p></div><div class="prayergrid"><div class="prayer"><div class="symbol">☼</div><h3>Fajr</h3><p>Timing to be added</p></div><div class="prayer"><div class="symbol">◉</div><h3>Zuhr</h3><p>Timing to be added</p></div><div class="prayer"><div class="symbol">◒</div><h3>Asr</h3><p>Timing to be added</p></div><div class="prayer"><div class="symbol">☀</div><h3>Maghrib</h3><p>Timing to be added</p></div><div class="prayer"><div class="symbol">☾</div><h3>Isha</h3><p>Timing to be added</p></div></div><div class="note">Prayer times are placeholders. Add verified local timings before publishing. <span lang="hi">नमाज़ के समय अभी अस्थायी हैं; प्रकाशित करने से पहले सही समय जोड़ें।</span> <span lang="ur" dir="rtl">اوقات فی الحال عارضی ہیں؛ شائع کرنے سے پہلے درست اوقات شامل کریں۔</span></div></div></section>
+<section id="about"><div class="wrap aboutgrid"><img src="assets/masjid-interior-1.jpg" alt="Inside the masjid prayer hall"><div class="aboutcopy"><div class="eyebrow">Our masjid</div><h2>A place to worship, grow and serve.</h2><p id="aboutDescription">Ahmadiya Masjid is a place for worship, reflection, learning, and community connection. This website shares basic visitor information and ways to support the upkeep of the masjid.</p><p lang="hi">अहमदिया मस्जिद इबादत, चिंतन, धार्मिक सीख और आपसी मेल-जोल की जगह है। इस वेबसाइट पर मस्जिद की बुनियादी जानकारी और उसकी देखभाल में सहयोग के तरीके दिए गए हैं।</p><p lang="ur" dir="rtl">احمدیہ مسجد عبادت، دینی رہنمائی اور باہمی رابطے کی جگہ ہے۔ اس ویب سائٹ پر مسجد کے بارے میں بنیادی معلومات اور تعاون کے طریقے فراہم کیے گئے ہیں۔</p><p>Use this section to add the masjid's real history, its founding year, the name of the imam, and the community activities it offers.</p><div class="points"><div class="point">✦ Daily prayers</div><div class="point">✦ Community support</div><div class="point">✦ Religious learning</div><div class="point">✦ Care for the masjid</div></div></div></div></section>
+<section class="gallery" id="gallery"><div class="wrap"><div class="sectionhead center"><div class="eyebrow">A glimpse inside</div><h2>Masjid Gallery</h2><p>Real photographs of our masjid and its prayer spaces.</p></div><div class="gallerygrid"><img src="assets/masjid-exterior-1.jpg" alt="Masjid exterior and domes"><img src="assets/masjid-interior-2.jpg" alt="Prayer hall interior"><img src="assets/masjid-interior-3.jpg" alt="Prayer hall and carpets"><img src="assets/masjid-exterior-2.jpg" alt="Close view of the masjid domes"><img src="assets/masjid-exterior-3.jpg" alt="Masjid exterior from another angle"><img src="assets/masjid-interior-1.jpg" alt="Front view of the prayer hall"></div></div></section>
+<section class="support" id="donate"><div class="wrap"><div class="sectionhead center"><div class="eyebrow" style="color:#e3c77f">Help maintain our masjid</div><h2>Every contribution can make a difference.</h2><p>Support the upkeep of the prayer space and the needs of the local community.</p><p lang="hi">मस्जिद की देखभाल और स्थानीय समुदाय की ज़रूरतों में सहयोग करें।</p><p lang="ur" dir="rtl">مسجد کی دیکھ بھال اور مقامی ضروریات میں تعاون کریں۔</p></div><div class="supportcards"><div class="supportcard"><div class="symbol">✧</div><h3>Masjid Maintenance</h3><p>Help with repairs, upkeep, and keeping the masjid welcoming.</p></div><div class="supportcard"><div class="symbol">☼</div><h3>Utilities & Cleanliness</h3><p>Support electricity, water, cleaning supplies, and daily essentials.</p></div><div class="supportcard"><div class="symbol">♡</div><h3>Community Needs</h3><p>Help the committee support suitable local community initiatives.</p></div></div><div class="donatebox"><h3>Want to contribute?</h3><p id="donationDescription">Contact the authorised masjid committee to confirm donation details. Verified UPI ID, QR code, and bank information can be added here once provided.</p><p lang="hi">दान की जानकारी की पुष्टि के लिए मस्जिद की अधिकृत कमेटी से संपर्क करें। सही जानकारी मिलने पर UPI ID, QR कोड और बैंक विवरण जोड़े जा सकते हैं।</p><p lang="ur" dir="rtl">عطیہ دینے سے پہلے مسجد کی مجاز انتظامیہ سے ادائیگی کی تفصیلات کی تصدیق کریں۔</p><a class="btn" href="#contact">Contact the Committee</a><p style="font-size:.78rem;margin:14px 0 0">Please verify the recipient before making any payment.</p></div></div></section>
+<section id="contact"><div class="wrap"><div class="sectionhead"><div class="eyebrow">Get in touch</div><h2>Visit or contact us</h2><p>Find us at Rina Mandal Road, Ramna, Gaya, Bihar. Contact details and prayer schedules will be added when confirmed.</p><p lang="hi">पता: रीना मंडल रोड, रमना, गया, बिहार। संपर्क विवरण और नमाज़ के समय पुष्टि होने के बाद जोड़े जाएंगे।</p><p lang="ur" dir="rtl">پتہ: رینا منڈل روڈ، رامنا، گیا، بہار۔ رابطے کی تفصیلات تصدیق کے بعد شامل کی جائیں گی۔</p></div><div class="contactgrid"><div class="contactpanel"><h3>Masjid Information</h3><div class="contactitem"><strong>Address / पता / پتہ</strong><span id="addressText">Rina Mandal Road, Ramna, Gaya, Bihar</span></div><div class="contactitem"><strong>Phone / WhatsApp / फ़ोन / فون</strong><span id="phoneText">To be added by the masjid committee</span></div><div class="contactitem"><strong>Jumu'ah Prayer / जुमा की नमाज़ / نمازِ جمعہ</strong>Time to be confirmed by the masjid committee</div><div class="contactitem"><strong>Email / ईमेल</strong>Email address (optional)</div></div><div class="mapplaceholder"><div><div style="font-size:2rem">⌖</div><strong>Google Maps location</strong><p style="margin:6px 0 0;color:#63766e">Open the map search for this address. Please verify the exact pin before travelling.</p><p><a class="btn outline" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Ahmadiya+Masjid%2C+Rina+Mandal+Road%2C+Ramna%2C+Gaya%2C+Bihar">Search on Google Maps ↗</a></p></div></div></div></div></section>
+</main>
+<footer class="footer"><div class="wrap footerin"><div><strong>Ahmadiya Masjid</strong><br><small>Faith • Community • Service | ایمان • عبادت • خدمت</small></div><div>Built with care for our local community.</div><div>© <span id="year">2026</span> Ahmadiya Masjid. All rights reserved.</div></div></footer>
+<script type="module">
+import {initializeApp} from "https://www.gstatic.com/firebasejs/10.12.5/firebase-app.js";
+import {getFirestore,doc,getDoc} from "https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore.js";
+const cfg={apiKey:"PASTE_FIREBASE_API_KEY",authDomain:"PASTE_PROJECT_ID.firebaseapp.com",projectId:"PASTE_PROJECT_ID",appId:"PASTE_FIREBASE_APP_ID"};
+if(!cfg.apiKey.startsWith("PASTE_")){try{const db=getFirestore(initializeApp(cfg));const s=await getDoc(doc(db,"site","content"));if(s.exists()){const d=s.data();const set=(id,v)=>{const e=document.getElementById(id);if(e&&typeof v==="string"&&v.trim())e.textContent=v};set("heroDescription",d.heroDescription);set("aboutDescription",d.aboutDescription);set("donationDescription",d.donationDescription);set("addressText",d.address);set("phoneText",d.phone||"To be added by the masjid committee");if(d.heroTitle)set("heroTitle",d.heroTitle);if(Array.isArray(d.prayerTimes))document.querySelectorAll(".prayer").forEach((e,i)=>{if(d.prayerTimes[i])e.querySelector("p").textContent=d.prayerTimes[i]});if(Array.isArray(d.gallery)&&d.gallery.length){const g=document.querySelector(".gallerygrid");g.replaceChildren();d.gallery.forEach((u,i)=>{if(/^https:\/\//i.test(u)){const im=document.createElement("img");im.src=u;im.alt="Ahmadiya Masjid photo "+(i+1);g.append(im)}})}}}catch(e){console.warn("Using built-in site content; Firebase may not be configured.",e)}}
+</script>
+</body></html>
