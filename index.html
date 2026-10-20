@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ahmadiya Masjid, Gaya - Official Community Page</title>
+    <title>Ahmadiya Masjid, Gaya</title>
     <style>
         :root {
             --primary-color: #0b5345;
             --secondary-color: #117a65;
-            --accent-color: #f39c12;
             --bg-color: #f9f9fb;
             --text-color: #333;
         }
@@ -21,31 +20,28 @@
             line-height: 1.6;
         }
         header {
-            background: linear-gradient(rgba(11, 83, 69, 0.9), rgba(17, 122, 101, 0.9)), url('https://images.unsplash.com/photo-1564769625405-24e0f50fcc3f?auto=format&fit=crop&w=1200&q=80');
-            background-size: cover;
-            background-position: center;
+            background: linear-gradient(rgba(11, 83, 69, 0.9), rgba(17, 122, 101, 0.9));
             color: white;
-            padding: 60px 20px;
+            padding: 40px 20px;
             text-align: center;
         }
         header h1 {
             margin: 0;
-            font-size: 32px;
-            letter-spacing: 1px;
+            font-size: 28px;
         }
         header p {
-            margin: 10px 0 0;
-            font-size: 16px;
+            margin: 8px 0 0;
+            font-size: 15px;
             opacity: 0.9;
         }
         .container {
             max-width: 800px;
-            margin: -30px auto 30px auto;
+            margin: 20px auto;
             padding: 0 15px;
         }
         .card {
             background: white;
-            padding: 25px;
+            padding: 20px;
             border-radius: 10px;
             box-shadow: 0 4px 15px rgba(0,0,0,0.08);
             margin-bottom: 20px;
@@ -77,28 +73,28 @@
             display: block;
             margin-bottom: 4px;
         }
+        /* Gallery Styles */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .gallery img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.02);
+        }
         .donate-card {
             background: linear-gradient(135deg, #e8f8f5, #d1f2eb);
             border: 2px dashed var(--secondary-color);
             text-align: center;
-        }
-        .donate-card h2 {
-            color: #0e6655;
-            border-bottom: none;
-        }
-        .qr-placeholder {
-            background: white;
-            width: 150px;
-            height: 150px;
-            margin: 15px auto;
-            border: 1px solid #ccc;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 12px;
-            color: #666;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
         }
         .btn {
             display: inline-block;
@@ -110,16 +106,11 @@
             font-weight: bold;
             margin-top: 15px;
             box-shadow: 0 4px 10px rgba(39, 174, 96, 0.3);
-            transition: background 0.3s;
-        }
-        .btn:hover {
-            background-color: #219653;
         }
         footer {
             text-align: center;
             padding: 20px;
             font-size: 13px;
-            color: #7f8c8d;
             background: #2c3e50;
             color: white;
             margin-top: 40px;
@@ -143,25 +134,33 @@
             <div class="info-grid">
                 <div class="info-item">
                     <strong>Exact Address</strong>
-                    Rina Mandal Rd, Ramna, Kirani Ghat, Gaya, Bihar 823001[span_9](start_span)[span_9](end_span)
+                    Rina Mandal Rd, Ramna, Kirani Ghat, Gaya, Bihar 823001[span_2](start_span)[span_2](end_span)
                 </div>
                 <div class="info-item">
                     <strong>Timings</strong>
-                    Open 24 Hours (Everyday)[span_10](start_span)[span_10](end_span)
+                    Open 24 Hours (Everyday)[span_3](start_span)[span_3](end_span)
                 </div>
+            </div>
+        </div>
+
+        <!-- Photo Gallery Section -->
+        <div class="card">
+            <h2>Photo Gallery</h2>
+            <p>Masjid ke andar aur bahar ki kuch tasveeren:</p>
+            <div class="gallery">
+                <img src="masjid-exterior-1.jpg" alt="Masjid Exterior">
+                <img src="masjid-exterior-2.jpg" alt="Masjid Exterior">
+                <img src="masjid-exterior-3.jpg" alt="Masjid Exterior">
+                <img src="masjid-interior-1.jpg" alt="Masjid Interior">
+                <img src="masjid-interior-2.jpg" alt="Masjid Interior">
+                <img src="masjid-interior-3.jpg" alt="Masjid Interior">
             </div>
         </div>
 
         <!-- Support & Donation Section -->
         <div class="card donate-card">
             <h2>Support & Maintenance (Donation)</h2>
-            <p>Masjid ke rakh-rakhaav, safai aur zarooriaryo ke liye aap apna yogdaan de sakte hain.</p>
-            
-            <!-- Agar aapke paas QR code ki image hai toh yahan link daal sakte hain, filhal UPI ID hai -->
-            <div class="qr-placeholder">
-                [ Yahan Apna UPI<br>QR Code Lagayein ]
-            </div>
-            
+            <p>Masjid ke rakh-rakhaav aur safai ke liye aap apna yogdaan de sakte hain.</p>
             <p><strong>UPI ID:</strong> <code>yourupi@okaxis</code></p>
             <a href="upi://pay?pa=yourupi@okaxis&pn=AhmadiyaMasjid&cu=INR" class="btn">Donate via UPI App</a>
         </div>
@@ -169,7 +168,7 @@
     </div>
 
     <footer>
-        <p>&copy; 2026 Ahmadiya Masjid, Gaya[span_11](start_span)[span_11](end_span). All Rights Reserved.</p>
+        <p>&copy; 2026 Ahmadiya Masjid, Gaya[span_4](start_span)[span_4](end_span). All Rights Reserved.</p>
     </footer>
 
 </body>
